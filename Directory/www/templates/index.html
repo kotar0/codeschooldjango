@@ -7,6 +7,12 @@
 </head>
 <body>
 <p>HELLO</p>
+{% for person in people %}
+<img src="{{person.image}}" alt="" />
+<p>{{peron.name}}</p>
+<p>{{peron.email}}</p>
+<p>{{peron.title}}</p>
+{% endfor %}
 
 </body>
 </html>
