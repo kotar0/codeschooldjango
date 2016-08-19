@@ -3,5 +3,8 @@ from .models import Person
 
 # Create your views here.
 def index(request):
-    people = Preson.objects.all()
+
+
+
+    people = Person.objects.all()
     return render(request, 'index.html', {'people':people})
