@@ -1,0 +1,16 @@
+body{
+  background: #ddd;
+  font-size: 16px;
+}
+
+section{
+  min-width: 400px;
+  border-radius: 3px;
+  border-color: white;
+  text-align: center;
+  margin: 0 10px;
+}
+
+main{
+  margin: 0 10px;
+}
