@@ -1,16 +1,31 @@
 body{
-  background: #ddd;
+  background-color: #ddd;
   font-size: 16px;
 }
 
 section{
+  display: inline-block;;
   min-width: 400px;
   border-radius: 3px;
-  border-color: white;
+  background-color: white;
   text-align: center;
   margin: 0 10px;
 }
 
+h2{
+  font-size: 2em;
+  font-weight: bold;;
+}
+
+.person-title{
+  font-size: 1em;
+  color: #aaa;
+}
+
+.person-email{
+  font-size: 1em;
+}
+
 main{
-  margin: 0 10px;
+  margin: 0 auto;
 }
